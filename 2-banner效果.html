@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>banner效果</title>
+    <style>
+        .banner{
+            height: 500px;
+            background-color: #f3f3f4;
+            background-image: url(../images/奶龙.jpeg);
+            background-repeat: no-repeat;
+            background-position: left bottom;
+            /*文字控制属性，继承给子级*/
+            text-align: right;
+            color: #333;
+            
+
+        }
+        .banner h2{
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 100px;
+        }
+        .banner p{
+
+        font-size: 20px;
+        }
+        .banner a{
+            width: 125px;
+            height: 40px;
+            background-color: pink;
+
+           display: inline-block;
+           /*转块级无法向右对齐，因为块元素独占一行*/
+           /*display: block;*/
+
+           text-align: center;
+           line-height: 40px;
+           color: #fff;
+           text-decoration: none;
+           font-size: 20px;
+        }
+             
+        
+    </style>
+</head>
+<body>
+    <div class="banner">
+      <h2>让奶龙统治世界</h2>
+      <p>奶龙奶龙奶龙爱唱奶龙歌，奶龙爱吃奶龙饭</p>
+      <a href="#">奶龙报名</a>
+    </div>
+</body>
+</html>
