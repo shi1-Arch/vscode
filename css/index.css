@@ -1,0 +1,82 @@
+/*首页css样式*/
+/*版心*/
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+body{
+    background-color: #f3f5f7;
+}
+
+/*头部区域*/
+.header{
+    height: 100px;
+    background-color: #fff;
+}
+
+.header .wrapper{
+    padding-top: 29px;
+    display: flex;
+}
+
+/* logo */
+.logo a{
+    width: 195px;
+    height: 41px;
+    background-color: url(../images/奶龙.png);
+    font-size: 0;
+}
+
+/* 搜索 */
+.search{
+    display: flex;
+    margin-left: 64px;
+    padding-left: 19px;
+    padding-left: 12px;
+    width: 412px;
+    height: 40px;
+    background-color: #f3f5f7;
+    border-radius: 20px;
+}
+
+.search input{
+    flex: 1;
+    border: o;
+    background-color: transparent;
+    /*去掉表单控件的焦点框*/
+    outline: none;
+}
+
+
+/*::placeholder 选中就是 其属性文学样式*/
+.search input::placeholder{
+    font-size: 14px;
+    color: #999;
+
+}
+
+/*父级是flex布局，子级变弹性盒子：加宽高生效*/
+.search a{
+    align-self: center;
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/奶龙.png);
+}
+
+/* 用户 */
+.user{
+    margin-left: 32px;
+    margin-top: 4px;
+}
+
+.user img{
+    margin-right: 7px;
+    /* vertical-align 行内块和行内垂直方向对齐方式*/
+    vertical-align: middle;
+}
+
+.user span{
+    font-size: 16px;
+    color: #666;
+}

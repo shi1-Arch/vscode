@@ -1,0 +1,46 @@
+/*基础公共样式：清除默认样式+设置通用样式*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    list-style: none;
+}
+
+body{
+    font: 14px/1.5 "Microsoft Yahei","Hiragino Sans GB", "Heiti SC","WenQuanYi Micro Hei", sans-serif;
+    color: #333;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+/* 导航 */
+.nav{
+    margin-left: 102px;
+}
+
+.nav u1{
+    display: flex;
+}
+
+.nav li{
+    margin-right: 24px;
+}
+
+.nav li a {
+    display: block;
+    padding: 6px 8px;
+    line-height: 27px;
+    font-size: 19px;
+}
+
+/* active 类选择器，表示默认选中的a */
+.nav li .active,
+.nav li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
