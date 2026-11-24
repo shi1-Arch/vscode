@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮动-基本使用</title>
+    <style>
+        /*作用：让块元素水平排列  属性名：float 左对齐：left 右对齐：right*/
+        /*特点：顶对齐；具备行内块显示模式特点*/
+        .one{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+
+            float: left;
+            /*浮动后的盒子不再占用标准流的位置*/
+        }
+
+        .two{
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+
+           float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">one</div>
+    <div class="two">two</div>
+</body>
+</html>

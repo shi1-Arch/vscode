@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主轴对齐方式</title>
+    <style>
+        .box{
+            display: flex;
+            /*justify-content: flex-end;*/
+            
+            /*justify-content: center;*/  /*居中*/
+            
+            /*justify-content: space-between;*/  /*在弹性盒子之间产生间距  父级剩余尺寸分配成间距*/
+            
+            justify-content:space-around ;  /*间距出现在盒子两侧  视觉效果：弹性盒子之间的间距是两端间距的2倍*/
+
+            justify-content: space-evenly;/*各个间距都相等*/
+
+            height: 300px;
+            border: 1px solid #000;
+
+        }
+        
+        .box div{
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>
