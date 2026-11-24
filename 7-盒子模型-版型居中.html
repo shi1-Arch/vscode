@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>版型居中</title>
+    <style>
+        div{
+            /*版心居中要求：盒子要有宽度s*/
+            width: 1000px;
+            height: 200px;
+            background-color: pink;
+
+            
+            /*外边距 不会撑大盒子尺寸*/
+           /* margin: 50px;*/
+           /*margin-left: 50px;*/  /*可设置方向*/
+           /*margin: 50px 100px;*/ /*上下一样 左右一样  与padding相同*/
+
+           margin: 0 auto;   /*使盒子版心居中*/
+
+
+        }
+    </style>
+</head>
+<body>
+    <div>版心内容</div>
+</body>
+</html>

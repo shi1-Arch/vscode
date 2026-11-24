@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子模型-边框线</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+
+            /*border控制边块线，四个方向相同*/
+            /*border: 1px solid #000;*//*bd即可自动生成*/
+            /*border: 2px dashed red;*//*dashed是虚线*/
+            /*border: 3px dotted #000;*//*dotted是点线*/
+
+            /*border+方位名词首字母，即可设置单方向边框线*/
+            border-top: 1px solid #000;
+            border-right: 3px solid red;
+            border-left: 3px dashed greenyellow;
+            border-bottom: 5px dotted orange;
+
+        }
+    </style>
+</head>
+<body>
+    <div>div标签</div>
+</body>
+</html>
